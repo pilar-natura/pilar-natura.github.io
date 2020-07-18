@@ -66,11 +66,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
 }
 .kit__item{
     list-style: none;
     margin-bottom: 1em;
+    display: block;
 }
 .kit_image{
     max-height: 750px;
+}
+
+@media(max-width:576px){
+    .kit{
+        justify-content: center;
+    }
+    .kit__item{
+        width: 100%;
+        text-align: center;
+    }
 }
