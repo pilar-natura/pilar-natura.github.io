@@ -37,7 +37,7 @@
     min-height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right center;
 }
 .carousel-item.active {
     display:flex;
@@ -84,8 +84,5 @@
     .kit__item{
         width: 100%;
         text-align: center;
-    }
-    .about-bg{
-        background-position: right center;
     }
 }
