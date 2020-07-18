@@ -85,4 +85,7 @@
         width: 100%;
         text-align: center;
     }
+    .about-bg{
+        background-position: right center;
+    }
 }
